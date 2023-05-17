@@ -1,0 +1,42 @@
+@import "./base.css";
+
+#app {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+h1,
+h3 {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: tomato ;
+  text-decoration: none;
+}
+button {
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  border: solid 1px black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
